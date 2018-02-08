@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.madebysearde.drakesdrumkit.MainActivity">
+
+    <ImageButton
+        android:id="@+id/red_btn"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@null"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/drake_image"
+        app:srcCompat="@drawable/red" />
+
+    <ImageView
+        android:id="@+id/drake_image"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@null"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/drakeviews" />
+
+    <ImageButton
+        android:id="@+id/prussian_btn"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@null"
+        app:layout_constraintStart_toEndOf="@+id/red_btn"
+        app:layout_constraintTop_toBottomOf="@+id/drake_image"
+        app:srcCompat="@drawable/prussian" />
+
+    <ImageButton
+        android:id="@+id/canary_btn"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@null"
+        app:layout_constraintStart_toEndOf="@+id/prussian_btn"
+        app:layout_constraintTop_toBottomOf="@+id/drake_image"
+        app:srcCompat="@drawable/canary" />
+
+    <ImageButton
+        android:id="@+id/green_btn"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/canary_btn"
+        app:layout_constraintTop_toBottomOf="@+id/drake_image"
+        app:srcCompat="@drawable/green" />
+
+    <ImageButton
+        android:id="@+id/black_btn"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/red_btn"
+        app:srcCompat="@drawable/black" />
+
+    <ImageButton
+        android:id="@+id/mint_btn"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@null"
+        app:layout_constraintStart_toEndOf="@+id/black_btn"
+        app:layout_constraintTop_toBottomOf="@+id/prussian_btn"
+        app:srcCompat="@drawable/mint" />
+
+    <ImageButton
+        android:id="@+id/violet_btn"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@null"
+        app:layout_constraintStart_toEndOf="@+id/mint_btn"
+        app:layout_constraintTop_toBottomOf="@+id/canary_btn"
+        app:srcCompat="@drawable/lavender" />
+
+    <ImageButton
+        android:id="@+id/pink_btn"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/violet_btn"
+        app:layout_constraintTop_toBottomOf="@+id/green_btn"
+        app:srcCompat="@drawable/rose" />
+
+    <ImageButton
+        android:id="@+id/orange_btn"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/black_btn"
+        app:srcCompat="@drawable/orange" />
+
+    <ImageButton
+        android:id="@+id/yellow_btn"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@null"
+        app:layout_constraintStart_toEndOf="@+id/orange_btn"
+        app:layout_constraintTop_toBottomOf="@+id/mint_btn"
+        app:srcCompat="@drawable/yellow" />
+
+    <ImageButton
+        android:id="@+id/grey_btn"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@null"
+        app:layout_constraintStart_toEndOf="@+id/yellow_btn"
+        app:layout_constraintTop_toBottomOf="@+id/violet_btn"
+        app:srcCompat="@drawable/grey" />
+
+    <ImageButton
+        android:id="@+id/blue_btn"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/grey_btn"
+        app:layout_constraintTop_toBottomOf="@+id/pink_btn"
+        app:srcCompat="@drawable/blue" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/make"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grey_btn" />
+
+</android.support.constraint.ConstraintLayout>
